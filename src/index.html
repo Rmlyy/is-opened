@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#4dac27" />
+  <meta property="og:title" content="isopened.rmly.dev" />
+  <meta property="og:description" content="Check if a TCP port is opened on a IP address" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/favicon.ico" />
+  <title>Is Opened ?</title>
+</head>
+
+<body>
+  <h1 class="header">Is Opened ? 🤔</h1>
+  <p>Check if a TCP port is opened on a IP address.</p>
+  <div>
+    <p>IP Address or DNS:</p>
+    <input type="text" id="host" name="target" required />
+    <p>Port:</p>
+    <input type="text" id="port" name="port" value="80" required />
+    <div>
+      <input type="submit" id="submit" value="Check" onclick="main()" />
+    </div>
+  </div>
+  <div class="result" id="result" style="visibility: hidden">
+  </div>
+  <div id="footer">
+    <ul>
+      <li><a href="mailto:hello@rmly.dev" target="_blank">Contact</a></li>
+      <li><a href="//donate.rmly.dev" target="_blank">Donate</a></li>
+    </ul>
+  </div>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
